@@ -1,9 +1,11 @@
+/* This overrides default browser settings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* These are the styles for the main body */
 body {
     display: flex;
     flex-direction: column;
@@ -11,6 +13,7 @@ body {
     min-height: 100vh;
 }
 
+/* These are the main styles */
 main {
     flex: 1 0 auto;
 }
