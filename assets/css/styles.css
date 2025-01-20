@@ -17,3 +17,13 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+/* These styles refer to the header */
+
+#header-top {
+    background-color: #5E8741;
+}
+
+#icons-list {
+    list-style-type: none;
+}
