@@ -39,3 +39,9 @@ main {
     color: #3d3d3d;
     cursor: pointer;
 }
+
+/* These styles are for the hero image */
+
+.hero-img {
+    width: 70vw;
+}
