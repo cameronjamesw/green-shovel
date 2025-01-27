@@ -29,11 +29,13 @@ main {
     list-style-type: none;
 }
 
-#icons-list > li {
+/* These styles refers to the anchor tags in the navbar */
+.link {
+    color: #fff;
     transition: color 0.3s ease-in-out;
 }
 
-#icons-list > li:hover {
-    cursor: pointer;
+.link:hover {
     color: #3d3d3d;
+    cursor: pointer;
 }
