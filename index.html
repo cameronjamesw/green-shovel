@@ -64,7 +64,8 @@
             </div>
         </div>
         <!-- This is the navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-light align-items-baseline" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-light align-items-baseline"
+            data-bs-theme="dark">
             <div class="container-fluid">
                 <!-- This is the logo -->
                 <a class="navbar-brand" href="#">
@@ -100,12 +101,70 @@
     </header>
 
     <!-- This is the main content -->
-    <main class="container-fluid bg-danger">
-        <p>This is where the main content will go</p>
+    <main class="container-fluid bg-danger g-0">
+        <!-- This is the carousel -->
+        <div class="row g-0">
+            <div id="carouselMain" class="carousel slide g-0 col-12 col-lg-8 h-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="assets/images/caroussel-images/turf.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Turf</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/caroussel-images/fencing.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Fencing</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/caroussel-images/decking.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Decking</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/caroussel-images/mowing.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h5>Mowing & Strimming</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-caption d-block">
+                            <h5>Block Paving</h5>
+                        </div>
+                        <img src="assets/images/caroussel-images/block-paving.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselMain"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselMain"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </main>
 
     <!-- This is the footer -->
-    <footer class="container-fluid fixed-bottom bg-primary">
+    <footer class="container-fluid bg-primary">
         <p>This is the footer element</p>
     </footer>
 
