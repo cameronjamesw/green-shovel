@@ -27,6 +27,8 @@ main {
 
 #icons-list {
     list-style-type: none;
+    align-items: center;
+    display: inline-flex;
 }
 
 /* These styles refers to the anchor tags in the navbar */
