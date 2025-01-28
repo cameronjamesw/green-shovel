@@ -47,3 +47,32 @@ main {
 .hero-img {
     width: 70vw;
 }
+
+/* Media Queries */
+
+/* Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    .hero-img {
+        width: 35vw;
+    }
+
+    #main-nav > li {
+        font-size: 1.5em;
+    }
+
+    .navbar {
+        vertical-align: bottom;
+    }
+
+} 
+
+/* Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    .hero-img {
+        width: 30vw;
+    }
+
+    #main-nav > li {
+        font-size: 2em;
+    }
+}
