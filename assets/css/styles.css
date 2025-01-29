@@ -64,6 +64,10 @@ main {
     transition: opacity 0s 2.6s;
 }
 
+.carousel-height {
+    height: 60vh;
+}
+
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
@@ -78,6 +82,12 @@ main {
 
     .navbar {
         vertical-align: bottom;
+    }
+
+    /* These styles refer to the carousel */
+
+    .carousel-height {
+        height: fit-content;
     }
 
 }
