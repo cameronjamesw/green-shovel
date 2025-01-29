@@ -93,7 +93,7 @@ main {
     /* These styles refer to the carousel */
 
     .carousel-height {
-        height: fit-content;
+        height: 50vh;
     }
 
     .carousel-text {
