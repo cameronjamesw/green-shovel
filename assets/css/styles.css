@@ -81,6 +81,10 @@ main {
     color: #fff;
 }
 
+.footer-link {
+    font-size: 1.2em;
+}
+
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
@@ -105,6 +109,12 @@ main {
 
     .carousel-text {
         font-size: 2rem;
+    }
+
+    /* These styles refer to the footer */
+
+    .footer-link {
+        font-size: 1.5em;
     }
 
 }
