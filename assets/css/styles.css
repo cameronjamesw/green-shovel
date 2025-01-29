@@ -74,6 +74,13 @@ main {
     letter-spacing: 3px;
 }
 
+/* This is the footer stlyings */
+
+#footer {
+    background-color: #448839;
+    color: #fff;
+}
+
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
