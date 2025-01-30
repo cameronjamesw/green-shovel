@@ -96,7 +96,26 @@ main {
 }
 
 .opacity {
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+.service-text {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(0.9);
 }
 
 /* This is the footer stlyings */
