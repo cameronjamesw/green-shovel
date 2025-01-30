@@ -74,6 +74,21 @@ main {
     letter-spacing: 3px;
 }
 
+/* These styles are for the free quote section */
+
+.quote-text > a {
+    color: #fff;
+}
+
+.quote-link {
+    transition: color 0.2s ease-in-out;
+}
+
+.quote-link:hover {
+    cursor: pointer;
+    color: #448839;
+}
+
 /* This is the footer stlyings */
 
 #footer {
