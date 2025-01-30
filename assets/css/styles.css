@@ -76,7 +76,7 @@ main {
 
 /* These styles are for the free quote section */
 
-.quote-text > a {
+.quote-text>a {
     color: #fff;
 }
 
@@ -126,6 +126,12 @@ main {
         font-size: 2rem;
     }
 
+    /* These styles refer to the quote text */
+
+    .quote-link {
+        font-size: 1.5rem;
+    }
+
     /* These styles refer to the footer */
 
     .footer-link {
@@ -144,7 +150,15 @@ main {
         font-size: 2em;
     }
 
+    /* These styles refer to the carousel */
+
     .carousel-text {
         font-size: 2.5rem;
+    }
+
+    /* These styles refer to the quote text */
+
+    .quote-link {
+        font-size: 2rem;
     }
 }
