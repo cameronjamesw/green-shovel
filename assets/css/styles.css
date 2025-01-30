@@ -89,6 +89,16 @@ main {
     color: #448839;
 }
 
+/* These styles refer to the services section */
+
+.services {
+    background-color: #d3d3d3;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
 /* This is the footer stlyings */
 
 #footer {
