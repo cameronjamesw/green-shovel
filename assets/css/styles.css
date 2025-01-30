@@ -146,10 +146,6 @@ main {
         width: 30vw;
     }
 
-    #main-nav>li {
-        font-size: 2em;
-    }
-
     /* These styles refer to the carousel */
 
     .carousel-text {
