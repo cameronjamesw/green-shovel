@@ -91,7 +91,11 @@ main {
 
 /* These styles refer to the services section */
 
-.services {
+.services, .reviews {
+    background-color: #d3d3d3;
+}
+
+.reviews {
     background-color: #d3d3d3;
 }
 
