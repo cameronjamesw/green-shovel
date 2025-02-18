@@ -128,6 +128,14 @@ main {
     color: #23475e;
 }
 
+.reviews-text {
+    font-size: 1rem;
+}
+
+.reviews-author {
+    font-size: 0.8rem;
+}
+
 /* This is the footer stlyings */
 
 #footer {
@@ -169,6 +177,16 @@ main {
 
     .quote-link {
         font-size: 1.5rem;
+    }
+
+    /* These styles refer to the reviews */
+
+    .reviews-text {
+        font-size: 1.2rem;
+    }
+    
+    .reviews-author {
+        font-size: 1rem;
     }
 
     /* These styles refer to the footer */
