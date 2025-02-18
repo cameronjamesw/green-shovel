@@ -91,11 +91,7 @@ main {
 
 /* These styles refer to the services section */
 
-.services, .reviews {
-    background-color: #d3d3d3;
-}
-
-.reviews {
+.services {
     background-color: #d3d3d3;
 }
 
@@ -120,6 +116,16 @@ main {
 .card:hover {
     cursor: pointer;
     transform: scale(0.9);
+}
+
+/* This section refers to the reviews */
+
+.reviews {
+    background-color: #fdfdfd;
+}
+
+.reviews > p, .reviews > i {
+    color: #23475e;
 }
 
 /* This is the footer stlyings */
