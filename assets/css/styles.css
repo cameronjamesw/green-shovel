@@ -140,7 +140,7 @@ main {
     background-color: #23475e !important;
 }
 
-.carousel-indicators {
+#carouselReviews > .carousel-indicators {
     bottom: -30px;
 }
 
