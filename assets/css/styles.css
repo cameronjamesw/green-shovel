@@ -76,7 +76,7 @@ main {
 
 /* These styles are for the free quote section */
 
-.quote-text>a {
+.quote-text>a, .mobile-icon > a {
     color: #fff;
 }
 
@@ -86,6 +86,10 @@ main {
 
 .quote-link:hover {
     cursor: pointer;
+    color: #448839;
+}
+
+.quote-link:focus {
     color: #448839;
 }
 
