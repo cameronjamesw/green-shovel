@@ -118,7 +118,7 @@ main {
     transform: scale(0.9);
 }
 
-/* This section refers to the reviews */
+/* This section refers to the reviews carousel */
 
 .reviews {
     background-color: #fdfdfd;
@@ -134,6 +134,14 @@ main {
 
 .reviews-author {
     font-size: 0.8rem;
+}
+
+.carousel-buttons > button {
+    background-color: #23475e !important;
+}
+
+.carousel-indicators {
+    bottom: -30px;
 }
 
 /* This is the footer stlyings */
