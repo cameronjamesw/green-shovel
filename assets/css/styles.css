@@ -89,6 +89,10 @@ main {
     color: #448839;
 }
 
+.mobile-icon {
+    font-size: 5rem;
+}
+
 /* These styles refer to the services section */
 
 .services {
