@@ -18,7 +18,9 @@
 
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
+    #background {
+        background: url('../../images/turf/turf-2.jpeg') no-repeat center / cover ;
+    }
 }
 
 /* Laptops and larger (992px and up) */
