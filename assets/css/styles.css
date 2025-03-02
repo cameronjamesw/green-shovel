@@ -221,8 +221,12 @@ main {
 
     /* These styles refer to the carousel */
 
+    .carousel-height {
+        height: 70vh;
+    }
+    
     .carousel-text {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     /* These styles refer to the quote text */
