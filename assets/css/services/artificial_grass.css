@@ -1,7 +1,7 @@
 /* These styles refer to the Grass & Turf Page */
 
 #background {
-    background: url('../../images/turf/turf-1.jpeg') no-repeat center / cover ;
+    background: url('../../images/turf/turf-1.jpeg') fixed no-repeat center / cover ;
 }
 
 .overlay {
