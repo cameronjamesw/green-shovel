@@ -24,6 +24,9 @@
 
     <!-- Link to the main stylesheet -->
     <link rel="stylesheet" href="../assets/css/styles.css" />
+
+    <!-- Link to the fencing stylesheet -->
+    <link rel="stylesheet" href="../assets/css/services/fencing.css"/>
   </head>
 
   <body>
@@ -111,12 +114,12 @@
             <ul class="navbar-nav ms-auto" id="main-nav">
               <!-- This is the home link -->
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
               </li>
               <!-- This is the landscaping link -->
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle active"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -126,12 +129,12 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">Artificial Grass</a>
+                    <a class="dropdown-item" href="/services/artificial_grass.html">Artificial Grass</a>
                   </li>
                   <li><a class="dropdown-item" href="#">Block Paving</a></li>
                   <li><a class="dropdown-item" href="#">Decking</a></li>
                   <li><a class="dropdown-item" href="#">Driveways</a></li>
-                  <li><a class="dropdown-item" href="#">Fencing</a></li>
+                  <li><a class="dropdown-item text-decoration-underline" href="#">Fencing</a></li>
                   <li><a class="dropdown-item" href="#">Groundwork</a></li>
                   <li><a class="dropdown-item" href="#">Porcelain</a></li>
                   <li><a class="dropdown-item" href="#">Slabbing</a></li>
@@ -175,9 +178,50 @@
 
     <!-- This is the main content -->
     <main class="container-fluid g-0">
-        <div>
-            <p>Fencing</p>
+      <!-- This is the fencing background -->
+      <div id="background" class="container-fluid g-0">
+        <!-- This is the fencing image overlay -->
+        <div class="overlay">
+          <!-- This is the fencing content -->
+          <div
+            class="container-fluid col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xxl-6 offset-xxl-3"
+          >
+            <!-- This is the title -->
+            <h2
+              class="text-white text-uppercase text-center pt-4 mb-5"
+              id="heading"
+            >
+              Professional Fencing
+            </h2>
+            <div class="text-white p-5 row">
+              <!-- Text elements -->
+              <div class="col-12 col-sm-6 text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vestibulum eleifend aliquam quam, et varius nibh tincidunt
+                  semper. Aliquam tristique id sapien non cursus. Fusce purus
+                  sem, gravida at euismod luctus, sagittis sit amet enim.
+                </p>
+                <p>
+                  Nunc velit justo, gravida sed ipsum vitae, luctus fringilla
+                  arcu. Aliquam viverra mauris dui, sed maximus mauris pretium
+                  nec. Proin vel libero efficitur, aliquam ligula ut, dignissim
+                  nisl. Aenean lorem risus, dignissim ut convallis sit amet,
+                  aliquet quis dui. Duis vitae varius mauris.
+                </p>
+              </div>
+              <!-- This is the image -->
+              <div class="col-12 col-sm-6">
+                <img
+                  src="../assets/images/fencing/fencing-7.jpeg"
+                  class="d-none d-sm-block img-thumbnail turf-img"
+                  alt="fencing"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
       <!-- This is the reviews div -->
       <div class="container-fluid reviews p-3">
         <div
@@ -220,12 +264,14 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+              <div
+                class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4"
+              >
                 <p>
                   "I was thrilled with the excellent work Green Shovel provided.
                   I was in serious need of having my garden fence replaced after
-                  Storm Eowyn and Green Shovel didn't disappoint!
-                  Highly Recommend!"
+                  Storm Eowyn and Green Shovel didn't disappoint! Highly
+                  Recommend!"
                 </p>
               </div>
               <div class="reviews reviews-author fw-bold">
@@ -244,12 +290,14 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+              <div
+                class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4"
+              >
                 <p>
                   "We contacted Green Shovel after my hip replacement and months
-                  of leaving our garden unattended. I'm so thankful we did!
-                  The service they provided was absolutely amazing.
-                  We finally have our garden back!
+                  of leaving our garden unattended. I'm so thankful we did! The
+                  service they provided was absolutely amazing. We finally have
+                  our garden back!
                 </p>
               </div>
               <div class="reviews reviews-author fw-bold">
@@ -268,12 +316,14 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+              <div
+                class="reviews reviews-text text-center pt-3 col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4"
+              >
                 <p>
                   "We've wanted our patio re-doing for a while now but never got
-                  round to it and before we knew it was winter again.
-                  Blake was recommended to us by a family friend.
-                  He did an excellent job, thanks again!"
+                  round to it and before we knew it was winter again. Blake was
+                  recommended to us by a family friend. He did an excellent job,
+                  thanks again!"
                 </p>
               </div>
               <div class="reviews reviews-author fw-bold">
