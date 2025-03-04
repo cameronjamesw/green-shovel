@@ -1,0 +1,36 @@
+/* These styles refer to the Grass & Turf Page */
+
+#background {
+    background: url('../../images/slabbing/slabbing-3.jpeg') no-repeat center / cover ;
+}
+
+.overlay {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+#heading {
+    letter-spacing: 5px;
+}
+
+.slabbing-img {
+    max-height: 600px;
+}
+
+/* Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #background {
+        background: url('../../images/slabbing/slabbing-15.jpeg') no-repeat center / cover ;
+    }
+}
+
+/* Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Large Desktops and larger (1600px and up) */
+@media screen and (min-width: 1600px) {
+    .text {
+        font-size: 1.3rem;
+    }
+}
