@@ -1,7 +1,7 @@
 /* These styles refer to the Fencing Page */
 
 #background {
-  background: url("../../images/fencing/fencing-3.jpeg") fixed no-repeat center /
+  background: url("../../images/fencing/fencing-3.jpeg") no-repeat center /
     cover;
 }
 
@@ -25,7 +25,7 @@
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   #background {
-    background: url("../../images/fencing/fencing-2.jpeg") fixed no-repeat center /
+    background: url("../../images/fencing/fencing-2.jpeg") no-repeat center /
       cover;
   }
 
