@@ -4,6 +4,10 @@
     background: url('../../images/slabbing/slabbing-3.jpeg') no-repeat center / cover ;
 }
 
+#background-2 {
+    background: url('../../images/slabbing/slabbing-4.jpeg') no-repeat center / cover ;
+}
+
 .overlay {
     background-color:rgba(0, 0, 0, 0.6);
 }
@@ -15,6 +19,10 @@
 .slabbing-img {
     max-height: 300px;
     width: 100%;
+}
+
+.slabbing-text {
+    height: fit-content;
 }
 
 /* Tablets and larger (768px and up) */
