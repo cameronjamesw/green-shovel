@@ -1,51 +1,97 @@
-/* These styles refer to the Grass & Turf Page */
+/* These styles refer to the Slabbing Page */
 
+/* These styles refer to the backgrounds */
 #background {
-    background: url('../../images/slabbing/slabbing-3.jpeg') no-repeat center / cover ;
+  background: url("../../images/slabbing/slabbing-3.jpeg") no-repeat center /
+    cover;
 }
 
 #background-2 {
-    background: url('../../images/slabbing/slabbing-4.jpeg') no-repeat center / cover ;
+  background: url("../../images/slabbing/slabbing-4.jpeg") no-repeat center /
+    cover;
 }
 
 .overlay {
-    background-color:rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  height: fit-content;
 }
 
+.overlay-2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: fit-content;
+  }
+
+/* These styles refer to the first part of the content */
+
 #heading {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 .slabbing-img {
-    max-height: 300px;
-    width: 100%;
+  max-height: 300px;
+  width: 100%;
 }
 
 .slabbing-text {
-    height: fit-content;
+  height: fit-content;
 }
+
+.overlay-2 {
+    height: 40vh;
+  }
+
+.slab-carousel-height {
+    height: 40vh;
+  }
 
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    #background {
-        background: url('../../images/slabbing/slabbing-15.jpeg') no-repeat center / cover ;
-    }
+  #background {
+    background: url("../../images/slabbing/slabbing-15.jpeg") no-repeat center /
+      cover;
+  }
 
-    .slabbing-img {
-        max-height: 400px;
-    }
+  .slabbing-img {
+    max-height: 400px;
+  }
+
+  .overlay-2 {
+    height: 25vh;
+  }
+
+  .slab-carousel-height {
+    height: 25vh;
+  }
 }
 
 /* Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    .slabbing-img {
-        max-height: 500px;
-    }
+  .slabbing-img {
+    max-height: 500px;
+  }
+
+  .overlay-2 {
+    height: 50vh;
+  }
+
+  .slab-carousel-height {
+    height: 50vh;
+  }
 }
 
 /* Large Desktops and larger (1600px and up) */
 @media screen and (min-width: 1600px) {
-    .text {
-        font-size: 1.3rem;
-    }
+  .text {
+    font-size: 1.3rem;
+  }
+
+  .overlay-2 {
+    height: 70vh;
+  }
+
+  /* These styles refer to the Slabbing Caroussel */
+
+  .slab-carousel-height {
+    height: 70vh;
+  }
 }
