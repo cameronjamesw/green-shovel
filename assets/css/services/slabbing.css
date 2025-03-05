@@ -13,7 +13,8 @@
 }
 
 .slabbing-img {
-    max-height: 600px;
+    max-height: 300px;
+    width: 100%;
 }
 
 /* Tablets and larger (768px and up) */
@@ -21,11 +22,17 @@
     #background {
         background: url('../../images/slabbing/slabbing-15.jpeg') no-repeat center / cover ;
     }
+
+    .slabbing-img {
+        max-height: 400px;
+    }
 }
 
 /* Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
+    .slabbing-img {
+        max-height: 500px;
+    }
 }
 
 /* Large Desktops and larger (1600px and up) */
