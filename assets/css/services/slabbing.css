@@ -81,8 +81,8 @@
 
 /* Large Desktops and larger (1600px and up) */
 @media screen and (min-width: 1600px) {
-  .text {
-    font-size: 1.3rem;
+  .text, .overlay-2 > p {
+    font-size: 1.5rem;
   }
 
   .overlay-2 {
