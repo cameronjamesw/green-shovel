@@ -1,259 +1,274 @@
 /* This is the Mullish font, imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* This overrides default browser settings */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* These are the styles for the main body */
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: "mulish", "sans-serif";
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "mulish", "sans-serif";
+  min-height: 100vh;
 }
 
 /* These are the main styles */
 main {
-    flex: 1 0 auto;
-    background-color: #303434;
+  flex: 1 0 auto;
+  background-color: #303434;
 }
 
 /* These styles refer to the header */
 
 #header-top {
-    background-color: #448839;
-    color: #fff;
+  background-color: #448839;
+  color: #fff;
 }
 
 #icons-list {
-    list-style-type: none;
-    align-items: center;
-    display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+  display: inline-flex;
 }
 
 /* These styles refers to the anchor tags in the navbar */
 .link {
-    color: #fff;
-    transition: color 0.3s ease-in-out;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
 }
 
 .link:hover {
-    color: #3d3d3d;
-    cursor: pointer;
+  color: #3d3d3d;
+  cursor: pointer;
 }
 
 /* These styles are for the hero image */
 
 .hero-img {
-    width: 70vw;
+  width: 70vw;
 }
 
 /* These styles are for the carousel */
 
 /* Change transition duration to control the speed of fade effect */
 .carousel-item {
-    transition: transform 2.6s ease-in-out;
+  transition: transform 2.6s ease-in-out;
 }
 
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
-    transition: opacity 0s 2.6s;
+  transition: opacity 0s 2.6s;
 }
 
 .carousel-height {
-    height: 60vh;
+  height: 60vh;
 }
 
 .carousel-text {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
 
 /* These styles are for the free quote section */
 
-.quote-text>a, .mobile-icon > a {
-    color: #fff;
+.quote-text > a,
+.mobile-icon > a {
+  color: #fff;
 }
 
 .quote-link {
-    transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 .quote-link:hover {
-    cursor: pointer;
-    color: #448839;
+  cursor: pointer;
+  color: #448839;
 }
 
 .quote-link:focus {
-    color: #448839;
+  color: #448839;
 }
 
 .mobile-icon {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 /* These styles refer to the services section */
 
 .services {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .opacity {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .service-text {
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card img {
-    transition: transform 0.3s ease;
-    height: 300px;
-    object-fit: cover;
+  transition: transform 0.3s ease;
+  height: 300px;
+  object-fit: cover;
 }
 
 .card:hover {
-    cursor: pointer;
-    transform: scale(0.9);
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 /* This section refers to the reviews carousel */
 
 .reviews {
-    background-color: #fdfdfd;
+  background-color: #fdfdfd;
 }
 
-.reviews > p, .reviews > i {
-    color: #23475e;
+.reviews > p,
+.reviews > i {
+  color: #23475e;
 }
 
 .reviews-text {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .reviews-author {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .carousel-buttons > button {
-    background-color: #23475e !important;
+  background-color: #23475e !important;
 }
 
 #carouselReviews > .carousel-indicators {
-    bottom: -30px;
+  bottom: -30px;
 }
 
 /* Thia is for the Get In Touch stylings */
 
 #git-div {
-    background: url('../images/git-image-1.jpeg') no-repeat center / cover;
-    height: 50vh;
+  background: url("../images/git-image-1.jpeg") no-repeat center / cover;
+  height: 50vh;
 }
 
 .overlay {
-    background-color:rgba(0, 0, 0, 0.7);
-    height: 50vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50vh;
 }
 
 .git-text {
-    font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .call-text {
-    letter-spacing: 2px;
+  letter-spacing: 3px;
+}
+
+.git-buttons {
+    margin: 25px;
 }
 
 /* This is the footer stlyings */
 
 #footer {
-    background-color: #448839;
-    color: #fff;
+  background-color: #448839;
+  color: #fff;
 }
 
 .footer-link {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    .hero-img {
-        width: 45vw;
-    }
+  .hero-img {
+    width: 45vw;
+  }
 
-    #main-nav>li {
-        font-size: 1.5em;
-    }
+  #main-nav > li {
+    font-size: 1.5em;
+  }
 
-    .navbar {
-        vertical-align: bottom;
-    }
+  .navbar {
+    vertical-align: bottom;
+  }
 
-    /* These styles refer to the carousel */
+  /* These styles refer to the carousel */
 
-    .carousel-height {
-        height: 30vh;
-    }
+  .carousel-height {
+    height: 30vh;
+  }
 
-    .carousel-text {
-        font-size: 2rem;
-    }
+  .carousel-text {
+    font-size: 2rem;
+  }
 
-    /* These styles refer to the quote text */
+  /* These styles refer to the quote text */
 
-    .quote-link {
-        font-size: 1.5rem;
-    }
+  .quote-link {
+    font-size: 1.5rem;
+  }
 
-    /* These styles refer to the reviews */
+  /* These styles refer to the reviews */
 
-    .reviews-text {
-        font-size: 1.2rem;
-    }
-    
-    .reviews-author {
-        font-size: 1rem;
-    }
+  .reviews-text {
+    font-size: 1.2rem;
+  }
 
-    /* These styles refer to the footer */
+  .reviews-author {
+    font-size: 1rem;
+  }
 
-    .footer-link {
-        font-size: 1.5em;
-    }
+  /* Thia is for the Get In Touch stylings */
 
+  .git-text {
+    font-size: 1.5rem;
+  }
+
+  .call-text {
+    letter-spacing: 5px;
+  }
+
+  /* These styles refer to the footer */
+
+  .footer-link {
+    font-size: 1.5em;
+  }
 }
 
 /* Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    .hero-img {
-        width: 30vw;
-    }
+  .hero-img {
+    width: 30vw;
+  }
 
-    /* These styles refer to the carousel */
+  /* These styles refer to the carousel */
 
-    .carousel-height {
-        height: 70vh;
-    }
-    
-    .carousel-text {
-        font-size: 3rem;
-    }
+  .carousel-height {
+    height: 70vh;
+  }
 
-    /* These styles refer to the quote text */
+  .carousel-text {
+    font-size: 3rem;
+  }
 
-    .quote-link {
-        font-size: 2rem;
-    }
+  /* These styles refer to the quote text */
+
+  .quote-link {
+    font-size: 2rem;
+  }
 }
