@@ -154,6 +154,26 @@ main {
     bottom: -30px;
 }
 
+/* Thia is for the Get In Touch stylings */
+
+#git-div {
+    background: url('../images/git-image-1.jpeg') no-repeat center / cover;
+    height: 50vh;
+}
+
+.overlay {
+    background-color:rgba(0, 0, 0, 0.8);
+    height: 50vh;
+}
+
+.git-text {
+    font-size: 1.5rem;
+}
+
+.call-text {
+    letter-spacing: 2px;
+}
+
 /* This is the footer stlyings */
 
 #footer {
