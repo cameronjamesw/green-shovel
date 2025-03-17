@@ -129,6 +129,11 @@ main {
   transform: scale(0.9);
 }
 
+.align-center {
+  align-self: center;
+  -webkit-align-self: center;
+}
+
 /* This section refers to the reviews carousel */
 
 .reviews {
@@ -177,7 +182,7 @@ main {
 }
 
 .git-buttons {
-    margin: 25px;
+  margin: 25px;
 }
 
 /* This is the footer stlyings */
