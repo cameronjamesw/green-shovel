@@ -11,6 +11,7 @@
 /* These are the styles for the main body */
 body {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   font-family: "mulish", "sans-serif";
   min-height: 100vh;
